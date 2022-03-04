@@ -1,0 +1,15 @@
+.navbar-style {
+  background-color: #2a67ad !important;
+}
+
+.nav-link.active {
+  color: #ffffff;
+  border-bottom: 2px sold #ffffff;
+}
+
+.header {
+  background-color: #e6e6e6;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
