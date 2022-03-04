@@ -1,0 +1,243 @@
+{
+  "brands": [
+    {
+      "id": 1,
+      "brandName": "Apple"
+    },
+    {
+      "id": 2,
+      "brandName": "Sony"
+    },
+    {
+      "id": 3,
+      "brandName": "Samsung"
+    },
+    {
+      "id": 4,
+      "brandName": "Carrier"
+    },
+    {
+      "id": 5,
+      "brandName": "Dell"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "手机"
+    },
+    {
+      "id": 2,
+      "categoryName": "电子设备"
+    },
+    {
+      "id": 3,
+      "categoryName": "电器"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "Apple iPhone",
+      "price": 8900,
+      "brandId": 1,
+      "categoryId": 1,
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "productName": "Apple iPad Pro",
+      "price": 12400,
+      "brandId": 1,
+      "categoryId": 2,
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "productName": "Sony Camera",
+      "price": 4500,
+      "brandId": 2,
+      "categoryId": 2,
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "productName": "Sony 5.1 Home Theatre",
+      "price": 4500,
+      "brandId": 3,
+      "categoryId": 3,
+      "rating": 4
+    },
+    {
+      "id": 5,
+      "productName": "Carrier 2 Ton Air Conditioner",
+      "price": 7780,
+      "brandId": 4,
+      "categoryId": 3,
+      "rating": 3
+    },
+    {
+      "id": 6,
+      "productName": "Dell Monitor",
+      "price": 880,
+      "brandId": 5,
+      "categoryId": 3,
+      "rating": 4
+    },
+    {
+      "id": 7,
+      "productName": "Sony Mobile Phone",
+      "price": 4848,
+      "brandId": 2,
+      "categoryId": 1,
+      "rating": 2
+    },
+    {
+      "id": 8,
+      "productName": "Samsung Mobile Phone",
+      "price": 2540,
+      "brandId": 3,
+      "categoryId": 1,
+      "rating": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "scott@test.com",
+      "password": "Scott123",
+      "fullName": "Scott",
+      "dateOfBirth": "2000-12-15",
+      "gender": "male",
+      "country": "UK",
+      "receiveNewsLetters": true,
+      "role": "user"
+    },
+    {
+      "email": "1626@qq.com",
+      "password": "4545edede",
+      "fullName": "峰",
+      "dateOfBirth": "2021-12-10",
+      "gender": "female",
+      "country": "中国",
+      "receiveNewsLetters": true,
+      "id": 5,
+      "role": "user"
+    },
+    {
+      "email": "123@qq.com",
+      "password": "123a3442",
+      "fullName": "随风",
+      "dateOfBirth": "2021-12-02",
+      "gender": "male",
+      "country": "中国",
+      "receiveNewsLetters": true,
+      "id": 6,
+      "role": "admin"
+    },
+    {
+      "email": "admin@qq.com",
+      "password": "e123123",
+      "fullName": "lucky",
+      "dateOfBirth": "2021-12-04",
+      "gender": "female",
+      "country": "中国",
+      "receiveNewsLetters": true,
+      "id": 7,
+      "role": "admin"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "productId": 1,
+      "userId": 6,
+      "quantity": 2,
+      "isPaymentCompleted": true
+    },
+    {
+      "id": 3,
+      "productId": 2,
+      "userId": 6,
+      "quantity": 1,
+      "isPaymentCompleted": true
+    },
+    {
+      "id": 4,
+      "productId": 3,
+      "userId": 6,
+      "quantity": 1,
+      "isPaymentCompleted": true
+    },
+    {
+      "id": 5,
+      "productId": 4,
+      "userId": 6,
+      "quantity": 1,
+      "isPaymentCompleted": true
+    },
+    {
+      "id": 9,
+      "productId": 1,
+      "userId": 6,
+      "quantity": 1,
+      "isPaymentCompleted": true
+    },
+    {
+      "userId": 6,
+      "productId": 3,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 10
+    },
+    {
+      "userId": 6,
+      "productId": 3,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 12
+    },
+    {
+      "id": 13,
+      "productId": 3,
+      "userId": 6,
+      "quantity": 1,
+      "isPaymentCompleted": true
+    },
+    {
+      "userId": 6,
+      "productId": 3,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 14
+    },
+    {
+      "id": 15,
+      "productId": 2,
+      "userId": 6,
+      "quantity": 1,
+      "isPaymentCompleted": true
+    },
+    {
+      "userId": 1,
+      "productId": 1,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "productId": 1,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "productId": 5,
+      "quantity": 1,
+      "isPaymentCompleted": false,
+      "id": 30
+    }
+  ]
+}
